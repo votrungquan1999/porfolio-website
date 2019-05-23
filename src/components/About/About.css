@@ -1,0 +1,14 @@
+.about {
+	font-family: avenir;
+	padding: 0;
+	margin-top: 73px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.about .title {
+	font-size: 70px;
+	text-align: center;
+}

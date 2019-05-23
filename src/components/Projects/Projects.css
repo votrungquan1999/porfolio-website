@@ -1,0 +1,11 @@
+.project {
+	margin-top: 73px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 70px;
+	text-align: center;
+}

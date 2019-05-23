@@ -1,0 +1,30 @@
+.home{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+.home .home-content h1 {
+    font-size: 7vw;
+    margin-top: 0;
+}
+
+.home .home-content h2 {
+    font-weight: lighter;
+    margin-bottom: 0;
+    /*font-size: 1.3vw;*/
+}
+
+.home-content .contact {
+    margin-top: 50px;
+}
+
+.home > img {
+    width: 100%;
+}
+
+@media all and (max-width: 1024px) {
+    .home .home-content h1 {
+        font-size: calc(70px + 2vw);
+    }
+}

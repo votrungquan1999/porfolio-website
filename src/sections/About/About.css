@@ -1,0 +1,57 @@
+.about > h1 {
+    font-size: 60px;
+    margin: 100px auto;
+    width: fit-content;
+}
+
+.blue-color {
+    color: cornflowerblue;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3vw;
+}
+
+.about-content > img {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    align-self: center;
+}
+
+.github-resume {
+    margin: 50px auto;
+    width: fit-content;
+}
+
+.github-resume a {
+    padding: 10px 30px;
+    margin-right: 100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 0 grey;
+
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: #e5f4ff;
+}
+
+@media all and (max-width: 1024px) {
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .about-content img {
+        justify-self: center;
+        margin-bottom: 50px;
+    }
+
+    .github-resume a {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,44 @@
+.about-descriptions p {
+    text-align: justify;
+    font-size: 15px;
+    display: block;
+}
+
+.about-descriptions p > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-descriptions h2 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.about-descriptions ul {
+    list-style-type: none;
+
+    padding: 0;
+}
+
+.about-descriptions ul li {
+    width: fit-content;
+    display: inline-block;
+
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #1f5673;
+    border-radius: 5px;
+
+    color: white;
+}
+
+@media all and (max-width: 1024px){
+    .about-descriptions p {
+        font-size: 25px;
+    }
+
+    .about-descriptions ul li {
+        font-size: 25px;
+    }
+}

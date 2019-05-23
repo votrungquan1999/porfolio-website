@@ -1,0 +1,17 @@
+body {
+	font-family: -apple-system,BlinkMacSystemFont,Omnes,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,
+	Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.body {
+	background-color: #f9fafc;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+}
+
+.content {
+	grid-column: 2 / 3;
+	display: grid;
+	grid-row-gap: 100px;
+}
+
