@@ -36,15 +36,6 @@ const experiences = [
 		]
 	},
 	{
-		title    : 'Programming C/C++',
-		employer : 'High School For The Gifted',
-		time     : 'Fall 2014 - Spring 2017',
-		place    : 'Dong Nai, Viet Nam',
-		details  : [
-			'Develop programming skills on C and C++ and apply them on solving 100+ logical problems.'
-		]
-	},
-	{
 		title    : 'Teaching Assistant',
 		employer : 'CS Department SUNY Plattsburgh',
 		time     : 'Fall 2018 – Present',
@@ -52,6 +43,15 @@ const experiences = [
 		details  : [
 			'Assist 50+ students in their understanding the core programming concepts using Python.',
 			'Hold office hours twice a week to help computer science students one on one in Python, C/C++, Java.'
+		]
+	},
+	{
+		title    : 'Programming C/C++',
+		employer : 'High School For The Gifted',
+		time     : 'Fall 2014 - Spring 2017',
+		place    : 'Dong Nai, Viet Nam',
+		details  : [
+			'Develop programming skills on C and C++ and apply them on solving 100+ logical problems.'
 		]
 	}
 ];
@@ -68,7 +68,7 @@ const experiences_list = experiences.map((experience) => (
 
 const Experiences = () => {
 	return (
-		<div className={'experiences'} id={'experiences'}>
+		<div className={'experiences'}>
 			<h1>
 				02. <span className={'blue-color'}>My experiences</span>
 			</h1>

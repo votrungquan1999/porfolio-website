@@ -8,7 +8,7 @@ import resume from '../../main_assets/documents/resume-quan-vo-official.docx';
 
 const About = () => {
 	return (
-		<div className={'about-page'} id='about'>
+		<div className={'about-page'}>
 			<div className='about'>
 				<h1>
 					01. <span className={'blue-color'}>About me</span>

@@ -14,14 +14,14 @@ class NavBar extends React.Component {
 		return (
 			<nav className='NavBar'>
 				<ul>
-					<li onClick={() => this.handle_click('#about')}>About</li>
-					<li onClick={() => this.handle_click('#experiences')}>
+					<li onClick={() => this.handle_click('.about')}>About</li>
+					<li onClick={() => this.handle_click('.experiences')}>
 						Experiences
 					</li>
-					<li onClick={() => this.handle_click('#projects')}>
+					<li onClick={() => this.handle_click('.projects')}>
 						Projects
 					</li>
-					<li onClick={() => this.handle_click('#contact')}>
+					<li onClick={() => this.handle_click('.contact')}>
 						Contact
 					</li>
 				</ul>
