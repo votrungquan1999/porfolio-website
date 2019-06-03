@@ -1,18 +1,33 @@
-import React from 'react'
+import React from 'react';
+import scrollToElement from 'scroll-to-element';
 
-import './NavBar.css'
+import './NavBar.css';
 
-const NavBar = (props) => {
-	return (
-		<nav className="NavBar">
-			<ul>
-				<li><a href={"/#about/"}>About</a></li>
-				<li><a href={"/#experiences/"}>Experiences</a></li>
-				<li><a href={"/#projects/"}>Projects</a></li>
-				<li><a href={'/#contact/'}>Contact</a></li>
-			</ul>
-		</nav>
-	)
+class NavBar extends React.Component {
+	handle_click = (id) => {
+		scrollToElement(id, {
+			ease : 'linear'
+		});
+	};
+
+	render () {
+		return (
+			<nav className='NavBar'>
+				<ul>
+					<li onClick={() => this.handle_click('#about')}>About</li>
+					<li onClick={() => this.handle_click('#experiences')}>
+						Experiences
+					</li>
+					<li onClick={() => this.handle_click('#projects')}>
+						Projects
+					</li>
+					<li onClick={() => this.handle_click('#contact')}>
+						Contact
+					</li>
+				</ul>
+			</nav>
+		);
+	}
 }
 
-export default NavBar
+export default NavBar;

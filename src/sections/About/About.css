@@ -1,57 +1,71 @@
+.about-page {
+	background-color: white;
+	grid-column: 1/4;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+
+	padding-bottom: 100px;
+}
+
+.about {
+	grid-column: 2 / 3;
+}
+
 .about > h1 {
-    font-size: 60px;
-    margin: 100px auto;
-    width: fit-content;
+	font-size: 60px;
+	margin: 100px auto;
+	width: fit-content;
 }
 
 .blue-color {
-    color: cornflowerblue;
+	color: cornflowerblue;
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 3vw;
 }
 
 .about-content > img {
-    width: 100%;
-    max-width: 560px;
-    height: auto;
-    align-self: center;
+	width: 100%;
+	max-width: 560px;
+	height: auto;
+	align-self: center;
 }
 
 .github-resume {
-    margin: 50px auto;
-    width: fit-content;
+	margin: 50px auto;
+	width: fit-content;
 }
 
 .github-resume a {
-    padding: 10px 30px;
-    margin-right: 100px;
-    border-radius: 15px;
-    box-shadow: 0 5px 0 grey;
+	padding: 10px 30px;
+	margin-right: 100px;
+	border-radius: 15px;
+	box-shadow: 0 5px 0 grey;
 
-    font-size: 17px;
-    font-weight: bold;
-    text-decoration: none;
-    color: dodgerblue;
-    background-color: #e5f4ff;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	color: dodgerblue;
+	background-color: #e5f4ff;
 }
 
 @media all and (max-width: 1024px) {
-    .about-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-    }
+	.about-content {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+	}
 
-    .about-content img {
-        justify-self: center;
-        margin-bottom: 50px;
-    }
+	.about-content img {
+		justify-self: center;
+		margin-bottom: 50px;
+	}
 
-    .github-resume a {
-        font-size: 25px;
-    }
+	.github-resume a {
+		font-size: 25px;
+	}
 }

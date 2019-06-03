@@ -1,3 +1,7 @@
+.NavBar {
+	grid-column: 2 /3;
+}
+
 .NavBar ul {
 	list-style-type: none;
 	padding: 0;
@@ -12,10 +16,25 @@
 	margin-right: 30px;
 }
 
+.NavBar ul li {
+	font-weight: bold;
+	padding: 10px 20px 15px;
+	border-radius: 44px;
+
+	color: cornflowerblue;
+}
+
+.NavBar ul li:hover {
+	background-color: cornflowerblue;
+
+	color: white;
+	cursor: pointer;
+}
+
 .NavBar ul li a {
 	text-decoration: none;
 	font-weight: bold;
-	padding: 10px 20px;
+	padding: 10px 20px 15px;
 	border-radius: 44px;
 
 	color: cornflowerblue;
