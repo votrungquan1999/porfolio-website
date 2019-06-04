@@ -1,5 +1,6 @@
 .experiences {
 	grid-column: 2 / 3;
+	padding-bottom: 80px;
 }
 
 .experiences > h1 {
