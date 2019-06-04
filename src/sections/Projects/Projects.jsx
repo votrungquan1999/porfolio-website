@@ -36,7 +36,7 @@ const initial_projects = [
 	{
 		title        : 'Smart Alarm',
 		descriptions :
-			'A new kind of alarm clock that makes user solve random math problems to determine of the user is awake. It also collect data to ',
+			'A new kind of alarm clock that makes user solve random math problems to determine of the user is awake. It also collects data of user to improve the math problems',
 		github_url   : '',
 		picture_url  : project_image,
 		deploy_url   : '',

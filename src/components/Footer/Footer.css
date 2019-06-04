@@ -1,4 +1,34 @@
-.footer {
+.footer-page {
 	background-color: #535353;
 	grid-column: 1/ 4;
+
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+}
+
+.footer {
+	grid-column: 2/3;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .copyright {
+	margin-bottom: 15px;
+}
+
+.footer .copyright h1 {
+	color: white;
+	font-size: 50px;
+	margin: 0;
+}
+
+.footer .copyright h2 {
+	color: #ace8ff;
+	margin: 0;
+	font-size: 15px;
+}
+
+.footer .footer-contact {
+	margin-top: auto;
+	margin-bottom: auto;
 }

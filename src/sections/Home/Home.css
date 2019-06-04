@@ -18,7 +18,11 @@
 	/*font-size: 1.3vw;*/
 }
 
-.home-content .contact {
+.home .home-content .home-contact {
+	margin-top: 50px;
+}
+
+.home-content .home-picture {
 	margin-top: 50px;
 }
 

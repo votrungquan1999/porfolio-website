@@ -1,9 +1,9 @@
-.contact a {
+.contact-icons a {
 	margin-right: 20px;
 	height: fit-content;
-	background-color: #f9fafc;
+	background-color: inherit;
 }
 
-.contact img {
+.contact-icons img {
 	height: 50px;
 }

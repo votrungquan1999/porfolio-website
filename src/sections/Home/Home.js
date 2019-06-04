@@ -11,11 +11,17 @@ const Home = () => {
 				<h2>Hi, I am</h2>
 				<h1>Quan Vo</h1>
 				<h2>A Web and Mobile developer</h2>
-				<ContactIcons/>
+				<div className='home-contact'>
+					<ContactIcons />
+				</div>
 			</div>
-			<img src={home_picture} alt={'home_picture'} className={'contact'}/>
+			<img
+				src={home_picture}
+				alt={'home_picture'}
+				className={'home-picture'}
+			/>
 		</div>
-	)
+	);
 };
 
-export default Home
+export default Home;
