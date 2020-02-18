@@ -4,13 +4,13 @@ import scrollToElement from 'scroll-to-element';
 import './NavBar.css';
 
 class NavBar extends React.Component {
-	handle_click = (id) => {
+	handle_click = id => {
 		scrollToElement(id, {
-			ease : 'linear'
+			ease: 'linear'
 		});
 	};
 
-	render () {
+	render() {
 		return (
 			<nav className='NavBar'>
 				<ul>
@@ -21,7 +21,7 @@ class NavBar extends React.Component {
 					<li onClick={() => this.handle_click('.projects')}>
 						Projects
 					</li>
-					<li onClick={() => this.handle_click('.contact')}>
+					<li onClick={() => this.handle_click('.footer-page')}>
 						Contact
 					</li>
 				</ul>
