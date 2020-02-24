@@ -5,6 +5,7 @@
 	display: grid;
 	grid-template-columns: 2fr 3fr;
 	align-items: center;
+	min-height: 700px;
 }
 
 .home .home-content h1 {
