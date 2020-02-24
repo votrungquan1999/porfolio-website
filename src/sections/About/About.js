@@ -4,7 +4,7 @@ import './About.css';
 
 import profile_image from '../../main_assets/images/profile.png';
 import AboutDescriptions from '../../components/AboutDescriptions/AboutDescriptions';
-import resume from '../../main_assets/documents/resume-quan-vo-official.docx';
+import resume from '../../main_assets/documents/resume-quan-vo-official.pdf';
 
 const About = () => {
 	return (
