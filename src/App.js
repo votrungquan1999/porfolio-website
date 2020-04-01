@@ -10,7 +10,11 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
-	render () {
+	componentDidMount() {
+		document.title = "Quan's Portfolio";
+	}
+
+	render() {
 		return (
 			<div className={'body'}>
 				<NavBar />
